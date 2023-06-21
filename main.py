@@ -7,8 +7,8 @@ import pprint
 import sys
 import tiktoken
 
-CONVO_FILENAME = "eng_conversation_history.txt"
-CHANNEL_ID = "CC4N13E93"
+CONVO_FILENAME = "conversation_history.txt"
+CHANNEL_ID = "CCXXXXXX"
 
 logging.basicConfig(level=logging.DEBUG)
 
