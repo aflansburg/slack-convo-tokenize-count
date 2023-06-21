@@ -5,6 +5,11 @@ This does the following:
 - batch encodes them as BPE for OpenAI models (will use for embeddings) using `tiktoken`
 - counts the number of tokens
 
+### Why care about tokens?
+Well, when you get an [embedding](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) from OpenAI you need to know the number of tokens you will be sending because:
+- there are a max number of tokens you can send per request
+- there is a [cost](https://openai.com/pricing) per 1k tokens
+
 You can run this to get the total number of tokens with an existing conversation list or without:
 
 ```bash
